@@ -6,7 +6,6 @@ use App\Action\ApiAction;
 use App\Entity\Post;
 use App\Exception\Post\PostNotFoundException;
 use App\Repository\PostRepository;
-use App\Repository\ThemeRepository;
 use App\Response\Post\SinglePostTransformer;
 use Slim\Http\Response;
 

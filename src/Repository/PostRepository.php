@@ -4,8 +4,8 @@ namespace App\Repository;
 
 use App\Entity\Post;
 use App\Entity\User;
-use Computools\LessqlORM\Repository\AbstractRepository;
-use Computools\LessqlORM\Tools\Pagination;
+use Computools\CLightORM\Repository\AbstractRepository;
+use Computools\CLightORM\Tools\Pagination;
 
 class PostRepository extends AbstractRepository
 {

@@ -2,9 +2,9 @@
 
 namespace App\Entity;
 
-use Computools\LessqlORM\Entity\AbstractEntity;
-use Computools\LessqlORM\Entity\TimestampsTrait;
-use Computools\LessqlORM\Mapper\MapperInterface;
+use Computools\CLightORM\Entity\AbstractEntity;
+use Computools\CLightORM\Entity\TimestampsTrait;
+use Computools\CLightORM\Mapper\MapperInterface;
 use App\Mapper\ThemeMapper;
 
 class Theme extends AbstractEntity

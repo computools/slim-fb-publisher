@@ -2,13 +2,13 @@
 
 namespace App\Mapper;
 
-use Computools\LessqlORM\Mapper\Relations\OneToMany;
+use Computools\CLightORM\Mapper\Relations\OneToMany;
 use App\Entity\Post;
-use Computools\LessqlORM\Mapper\Mapper;
-use Computools\LessqlORM\Mapper\Types\CreatedAtType;
-use Computools\LessqlORM\Mapper\Types\IdType;
-use Computools\LessqlORM\Mapper\Types\UpdatedAtType;
-use Computools\LessqlORM\Mapper\Types\StringType;
+use Computools\CLightORM\Mapper\Mapper;
+use Computools\CLightORM\Mapper\Types\CreatedAtType;
+use Computools\CLightORM\Mapper\Types\IdType;
+use Computools\CLightORM\Mapper\Types\UpdatedAtType;
+use Computools\CLightORM\Mapper\Types\StringType;
 
 class UserMapper extends Mapper
 {

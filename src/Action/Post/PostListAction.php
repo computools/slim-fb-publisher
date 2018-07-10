@@ -5,7 +5,7 @@ namespace App\Action\Post;
 use App\Action\ApiAction;
 use App\Repository\PostRepository;
 use App\Response\Post\PostTransformer;
-use Computools\LessqlORM\Tools\Pagination;
+use Computools\CLightORM\Tools\Pagination;
 use Slim\Http\Response;
 
 class PostListAction extends ApiAction

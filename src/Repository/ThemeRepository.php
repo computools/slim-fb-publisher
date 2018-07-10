@@ -3,7 +3,7 @@
 namespace App\Repository;
 
 use App\Entity\Theme;
-use Computools\LessqlORM\Repository\AbstractRepository;
+use Computools\CLightORM\Repository\AbstractRepository;
 
 class ThemeRepository extends AbstractRepository
 {

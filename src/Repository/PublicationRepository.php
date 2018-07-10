@@ -3,7 +3,7 @@
 namespace App\Repository;
 
 use App\Entity\Publication;
-use Computools\LessqlORM\Repository\AbstractRepository;
+use Computools\CLightORM\Repository\AbstractRepository;
 
 class PublicationRepository extends AbstractRepository
 {

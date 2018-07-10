@@ -5,7 +5,7 @@ namespace App\Action\Theme;
 use App\Action\ApiAction;
 use App\Repository\ThemeRepository;
 use App\Response\Theme\ThemeTransformer;
-use Computools\LessqlORM\Repository\Pagination;
+use Computools\CLightORM\Tools\Pagination;
 use Slim\Http\Response;
 
 class ListThemesAction extends ApiAction
